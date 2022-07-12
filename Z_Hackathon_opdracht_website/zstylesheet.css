@@ -1,0 +1,181 @@
+body {
+  background-image: url(AchtergrondWhiskyopdracht.svg);
+  margin-left: 10px;
+  text-align: left;
+  color: black; 
+  font-family: monospace;
+  
+  }
+
+.menu {
+  font-family: monospace;
+  font-size: 15px;
+  text-align: left;
+  margin: 20px;
+  color: white;
+  
+  }
+
+.logo {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  color: black;
+}
+
+li a {
+  display: inline-block; 
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+
+}
+li a:hover {
+  background-color: goldenrod;
+  color: white;
+}
+
+li a.active {
+  background-color: goldenrod;
+  color: white;
+}
+
+.whiskytext1 {
+  text-align: left;
+  color: black; 
+  font-family: monospace;
+  margin-right: 30px;
+  }
+
+nav li {
+  display: inline;
+}
+
+.whiskytext2 {
+  text-align: left;
+  color: black; 
+  font-family: monospace;
+  margin-right: 30px;
+  }
+
+  .whiskytext3 {
+    text-align: left;
+    color: black; 
+    font-family: monospace;
+    margin-right: 30px;
+    }
+
+    
+  .whiskytext4 {
+    text-align: left;
+    color: black; 
+    font-family: monospace;
+    border: solid black;
+    border-radius: 25px;
+    border-style: dotted;
+    padding-left: 10px;
+    margin-right: 30px;
+    }
+
+    
+  .whiskytext5 {
+    text-align: left;
+    color: black; 
+    font-family: monospace;
+    padding-left: 10px;
+    border: dotted black;
+    border-radius: 10px;
+    margin-right: 30px;
+   }
+
+   button:hover {
+    background-color: goldenrod;
+    color: white;
+  }
+  
+  button.active {
+    background-color: goldenrod;
+    color: white;
+    
+  }
+  button {
+    border-radius: 10px;
+    font-family: monospace;
+    font-weight: bold;
+  }
+ 
+.borderwork {
+  border: double black;
+  padding: 15px;
+}
+
+.afbeelding1 {
+  text-align: center;
+  margin: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  body  {
+    background-image:url(/achtergrond2mediaquery.svg);
+    background-size: cover;
+  
+  }}
+
+
+
+    @media screen and (min-width: 992px) {
+      .whiskytext1 {
+      color: white;}
+      .whiskytext2 {
+      color: white;}
+      .whiskytext3 {
+      color: white;}
+      .whiskytext4 {
+      color: white;
+      border: solid rgb(255, 255, 255);
+      border-radius: 25px;
+      border-style: dotted;
+      }
+      .whiskytext5 {
+      color: white;
+      border: solid rgb(255, 255, 255);
+      border-radius: 25px;
+      border-style: dotted;}
+      .borderwork {
+      color: white;}
+    }
+    
+
+    @media screen and (min-width: 992px) {
+      .borderbox {
+        border: solid white;
+        border-radius: 25px;
+        border-style: dotted;
+        
+      }
+      .borderwork {
+        border: double white;
+        padding: 15px;
+      }}
+
+      @media screen and (min-width: 992px) {
+      a:link {
+        color: white;
+      }}
+
+.gifwerkenbij {
+  text-align: center;
+  margin: 30px;
+}
+
+  
+
+
+

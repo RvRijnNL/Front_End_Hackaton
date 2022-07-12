@@ -1,0 +1,9 @@
+body {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: none;
+   
+}
+
+
+
